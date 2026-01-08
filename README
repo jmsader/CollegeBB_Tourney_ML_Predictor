@@ -1,0 +1,19 @@
+College Basketball Tournament Prediction Tool
+
+INPUTS
+Place teams for which you want their performance to be predicited in "to_predict.csv"
+
+OUTPUTS
+predictions will be available upon program completion in "predictions.txt"
+
+TO RUN
+./inference
+
+TROUBLESHOOTING
+you may need to run: chmod +x inference
+the above will grant you permissions to ./inference
+
+EXTRA FOLDERS
+model_transparency: info on the model for nerds
+model_training: training code and data
+src: inference code

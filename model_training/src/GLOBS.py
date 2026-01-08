@@ -1,0 +1,1 @@
+DATA_SLUG = "model_training/data/"

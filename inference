@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+# Activate the Python virtual environment
+source cbbML/bin/activate
+
+# Install required dependencies from requirements.txt, suppressing output
+# Try pip first, fall back to pip3 if pip is not available
+pip install -r requirements.txt > /dev/null || pip3 install -r requirements.txt > /dev/null
+
+# Run the inference script
+# Try python first, fall back to python3 if python is not available
+python src/inference.py || python3 src/inference.py
+
+# Deactivate the virtual environment
+deactivate
