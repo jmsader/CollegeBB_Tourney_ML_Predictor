@@ -1,4 +1,4 @@
-College Basketball Tournament Prediction Tool
+College Basketball Tournament ML Prediction Tool
 
 INPUTS
 Place teams for which you want their performance to be predicited in "to_predict.csv"
